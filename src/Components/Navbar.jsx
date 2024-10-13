@@ -11,9 +11,12 @@ export default function Navbar() {
   let [menuIcon, setmenuIcon] = useState(true);
   let closeMenu = () => setmenuIcon(!menuIcon);
   const [activeButton, setActiveButton] = useState(0);
+  
+  
   const handleClick = (index) => {
     setActiveButton(index);
   };
+
 
   return (
     <>

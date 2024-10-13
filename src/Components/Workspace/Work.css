@@ -1,0 +1,226 @@
+/* 
+color: rgb(229, 231, 235); 
+background-color: rgb(0, 167, 151);
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.work1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.head-text {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.work1 > .container > img {
+  width: 100%;
+}
+.work2 {
+  background-color: rgb(0, 167, 151);
+  width: 100%;
+  height: fit-content;
+  border-radius: 50px 50px 0 0;
+  display: block;
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+  padding-block-start: 2rem;
+  padding-block-end: 2rem;
+}
+.work-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.work2 > .work-header > .head-text {
+  color: white;
+}
+.work-card {
+  display: flex;
+  margin-left: 10px;
+  padding-left: 10px;
+  gap: 1.75rem;
+  color: white;
+}
+.work-card-img {
+  max-width: 600px;
+}
+.work-card-img img {
+  width: 90%;
+}
+.work-card-text {
+  width: 500px;
+  padding-top: 60px;
+}
+.work-card-text > .p1 {
+  font-size: 33px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+}
+.work-card-text > .p1 > span {
+  transform: translateX(-30px);
+  text-align: end;
+}
+.work-card-text > .p2 {
+  text-transform: capitalize;
+  font-size: 22px;
+}
+.work-Style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-155px);
+}
+.work-Style img {
+  width: 500px;
+}
+
+/* Booking section */
+.Booking {
+  background-color: rgb(13, 131, 114);
+  transform: translateY(-1rem);
+  height: fit-content;
+}
+.booking-main {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding-bottom: 120px;
+  width: 60%;
+}
+.booking-main > p {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: 800;
+  padding-top: 120px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  color: aliceblue;
+}
+.booking-main > img {
+  width: 350px;
+  max-height: 350px;
+  padding-bottom: 1rem;
+}
+.book-contact {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.Booking > .flex {
+  gap: 2.5rem;
+}
+.Booking > .container > .flex > a{
+  padding-bottom: 30px;
+}
+.Booking > .container > .flex > a > img {
+  max-width: 600px;
+  transform: translateY(50px);
+}
+.f-icons {
+  color: rgb(229, 231, 235);
+  padding-bottom: 12px;
+}
+.f-icons2 {
+    color: rgb(229, 231, 235);
+    padding-bottom: 34px;
+  }
+.mini-btn {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 8px;
+}
+.mini-btn p {
+    width: auto;
+    height: auto;
+    font-size: 18px;
+  color: aliceblue;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  line-height: 22px;
+}
+
+.book-Style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-155px);
+}
+.work-Style img {
+  width: 500px;
+  rotate: -16deg;
+}
+@media screen and (max-width: 768px) {
+  .head-text {
+    font-size: 30px;
+  }
+  .work-card {
+    gap: 0px;
+  }
+  .work-card-text {
+    justify-content: center;
+    padding-top: 30px;
+  }
+  .work-card-text > .p1 {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .work-card-text > .p1 > span {
+    transform: translateX(0);
+  }
+  .work-card-text > .p2 {
+    font-size: 18px;
+  }
+  .work-card {
+    flex-direction: column;
+  }
+  .work-Style {
+    display: none;
+  }
+  .book-Style{
+    display: none;
+  }
+  .Booking > .container > .flex{
+    flex-direction: column;
+    gap: 0px;
+  }
+  .Booking > .container > .flex > a > img {
+    max-width: 450px;
+    transform: translateY(0px);
+  }
+  .booking-main{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    gap: 0.8rem;
+
+  }
+  .booking-main > img{
+    padding-bottom: 0;
+  }
+  .booking-main > p{
+    font-size:28px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-top: 12px;
+  }
+  .book-contact{
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0;
+  }
+
+
+}
