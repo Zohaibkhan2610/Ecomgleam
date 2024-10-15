@@ -5,10 +5,17 @@ import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 import Home from './Components/Home';
 import About from './Components/section/About';
-import Connection from './Components/Workspace/Connection';
 import Footer from './Components/section/Footer';
-
+import './section.css'
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 function App() {
+  useEffect(() => {
+    AOS.init({
+   
+    });
+  }, []);
   return (
     <>
       <Router>

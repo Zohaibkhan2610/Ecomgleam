@@ -56,7 +56,14 @@ export default function Navbar() {
           <div onClick={closeMenu}><Link className={activeButton === 2 ? "page-linker active" : "page-linker"} onClick={() => handleClick(2)} to='/Contact'><FontAwesomeIcon icon={faContactBook}/>Contact Us</Link></div>
 
  
-          <div onClick={closeMenu}><Link className={activeButton === 3 ? "page-linker active" : "page-linker"} onClick={() => handleClick(3)} to='/Services'><FontAwesomeIcon icon={faServicestack}/>Services</Link></div>
+          <div onClick={closeMenu}>
+          <Link 
+          className={activeButton === 3 ? "page-linker active" : "page-linker"} onClick={() => handleClick(3)} 
+          to='/Services'>
+          <FontAwesomeIcon icon={faServicestack}/>
+          Services
+          </Link>
+          </div>
 
 
           <div onClick={closeMenu}><Link className={activeButton === 4 ? "page-linker active" : "page-linker"} onClick={() => handleClick(4)} to='/Blogs'><FontAwesomeIcon icon={faBlogger}/>Blogs</Link></div>

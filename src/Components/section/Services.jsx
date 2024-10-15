@@ -8,6 +8,9 @@ import Review from "./../Images/review img.png";
 
 import ServiceVideo from "./../Images/Services video.mp4";
 export default function Services() {
+
+
+
   return (
     <>
       <div className="server" id="ServicesSection">
@@ -18,14 +21,14 @@ export default function Services() {
         </h1>
         <div className="main flex">
           <div className="service">
-            <div className="card apear">
+            <div data-aos="fade-up" data-aos-duration="1000" className="card">
               <img src={Service1} alt="Service" />
               <div className="card-content">
                 <h3>Amazon Full Account Management Services</h3>
                 <Link className="btn3">Explore Services</Link>
               </div>
             </div>
-            <div className="card apear">
+            <div   data-aos="fade-up" data-aos-duration="1000" className="card">
               <img src={Service2} alt="Service" />
               <div className="card-content">
                 <h3>
@@ -37,14 +40,14 @@ export default function Services() {
             </div>
           </div>
           <div className="service">
-            <div className="card apear">
+            <div   data-aos="fade-up" data-aos-duration="1000" className="card">
               <img src={Service3} alt="Service" />
               <div className="card-content">
                 <h3>Amazon Wholesale FBA Services</h3>
                 <Link className="btn3">Explore Services</Link>
               </div>
             </div>
-            <div className="card apear">
+            <div  data-aos="fade-up" data-aos-duration="1000" className="card">
               <img src={Service4} alt="Service" />
               <div className="card-content">
                 <h3>3PL and Warehousing Services</h3>
