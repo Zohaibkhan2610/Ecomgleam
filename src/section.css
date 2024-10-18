@@ -9,6 +9,7 @@
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 10px;
 }
 
 .area-text{
@@ -62,4 +63,32 @@
     margin: 10px;
     text-align: center;
     text-decoration: none;
+}
+
+@media screen and (max-width:768px) {
+    .main-area{
+        height: fit-content;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .area-text{
+        width: 100%;
+        height: fit-content;
+        text-align: center;
+    }
+    .area-text > h1{
+        text-align: center;
+        font-size: 22px;
+    }
+    .area-text > p{
+        text-align: center;
+        font-size: 15px;
+    }
+    .area-img{
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
 }

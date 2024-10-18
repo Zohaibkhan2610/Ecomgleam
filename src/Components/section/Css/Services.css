@@ -40,12 +40,8 @@
     gap: 2rem;
 
 }
-.card.apear{
-    transform: translateY(0%) !important;
-}
+
 .card{
-    transform: translateY(30%);
-    transition: .5s;
     position: relative;
     display: flex;
     flex-direction: column;
