@@ -62,7 +62,7 @@ useEffect(() => {
             </div>
           </div>
         </div>
-        <video src={ServiceVideo} autoPlay/>
+        <video src={ServiceVideo} autoPlay muted loop/>
       </div>
       </div>
       <div className="container">

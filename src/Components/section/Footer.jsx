@@ -42,10 +42,10 @@ export default function Footer() {
           <div className="foot-text">
             <p>our Services</p>
             <div className="foot-links">
-              <Link to="/">Amazon Full Account Management Services</Link>
-              <Link to="/">Arbitrage & Retail Services</Link>
-              <Link to="/">Amazon Wholesale FBA Services</Link>
-              <Link to="/">3PL and Warehousing Services</Link>
+              <Link to="/amazon-full-account-management-services">Amazon Full Account Management Services</Link>
+              <Link to="/online-arbitrage-and-retail-services">Online Arbitrage & Retail Services</Link>
+              <Link to="/amazon-wholesale-fba-services">Amazon Wholesale FBA Services</Link>
+              <Link to="/3pl-and-warehousing-services">3PL and Warehousing Services</Link>
             </div>
           </div>
           <div className="foot-text">
