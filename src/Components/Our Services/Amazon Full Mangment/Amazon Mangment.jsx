@@ -3,6 +3,7 @@ import "./../OurServices.css";
 import { Link } from "react-router-dom";
 import managment1 from './../Images/amazonMangment1.png'
 import AFullMangement1 from "./AFullMangement1";
+import Message from "../Message";
 export default function AmazonMangment() {
   return (
     <>
@@ -29,6 +30,7 @@ export default function AmazonMangment() {
         </div>
       </div>
       <AFullMangement1/>
+      <Message/>
     </>
   );
 }

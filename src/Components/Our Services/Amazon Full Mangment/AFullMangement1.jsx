@@ -15,21 +15,21 @@ export default function AFullMangement1() {
     <div className="wherehouse">
     <div
         className="hover-card"
-        onMouseEnter={() => handleActiveHover(0)}
+        onMouseEnter={() => handleActiveHover(0.5)}
         onMouseLeave={deActiveHover}
       >
-        <p>Product Sourcing & Research</p>
+        <p> Brand Strategy and Development</p>
         <div
           className={
-            activeHover === 0 ? "hover-main-card active" : "hover-main-card"
+            activeHover === 0.5 ? "hover-main-card active" : "hover-main-card"
           }
         >
-          <p className="hover-main-card-Title">Product Sourcing & Research</p>
+          <p className="hover-main-card-Title"> Brand Strategy and Development</p>
           <p className="hover-main-card-para">
             <ul>
-              <li>Selecting wholesale products</li>
-              <li>Market research</li>
-              <li>Supplier negotiations</li>
+              <li>Brand Identity Creation</li>
+              <li>Brand Positioning</li>
+              <li>Brand Messaging</li>
             </ul>
           </p>
         </div>
@@ -39,18 +39,18 @@ export default function AFullMangement1() {
         onMouseEnter={() => handleActiveHover(0)}
         onMouseLeave={deActiveHover}
       >
-        <p>Product Sourcing & Research</p>
+        <p>Product Development and Optimization</p>
         <div
           className={
             activeHover === 0 ? "hover-main-card active" : "hover-main-card"
           }
         >
-          <p className="hover-main-card-Title">Product Sourcing & Research</p>
+          <p className="hover-main-card-Title">Product Development and Optimization</p>
           <p className="hover-main-card-para">
             <ul>
-              <li>Selecting wholesale products</li>
-              <li>Market research</li>
-              <li>Supplier negotiations</li>
+              <li>Product Research</li>
+              <li>Product Sourcing</li>
+              <li>Product Sourcing Optimization</li>
             </ul>
           </p>
         </div>
@@ -61,18 +61,18 @@ export default function AFullMangement1() {
         onMouseLeave={deActiveHover}
         onMouseEnter={() => handleActiveHover(1)}
       >
-        <p>Brand Outreach</p>
+        <p>Marketing and Advertising</p>
         <div
           className={
             activeHover === 1 ? "hover-main-card active" : "hover-main-card"
           }
         >
-          <p className="hover-main-card-Title">Brand Outreach</p>
+          <p className="hover-main-card-Title">Marketing and Advertising</p>
           <p className="hover-main-card-para">
             <ul>
-              <li>Secure distribution rights</li>
-              <li>Negotiate terms</li>
-              <li>Build relationships</li>
+              <li>   SEO Optimization      </li>
+              <li> PPC Advertising</li>
+              <li>Social Media Marketing</li>
             </ul>
           </p>
         </div>
@@ -83,18 +83,18 @@ export default function AFullMangement1() {
         onMouseLeave={deActiveHover}
         onMouseEnter={() => handleActiveHover(2)}
       >
-        <p>Inventory Management</p>
+        <p>Inventory Management and Fulfillment</p>
         <div
           className={
             activeHover === 2 ? "hover-main-card active" : "hover-main-card"
           }
         >
-          <p className="hover-main-card-Title">Inventory Management</p>
+          <p className="hover-main-card-Title">Inventory Management and Fulfillment</p>
           <p className="hover-main-card-para">
             <ul>
-              <li>Prevent stock-outs</li>
-              <li>Optimize storage</li>
-              <li>Demand forecasting</li>
+              <li>   Fulfillment Services   </li>
+              <li>inventory Planning </li>
+              <li>Supplier Management</li>
             </ul>
           </p>
         </div>
@@ -108,18 +108,18 @@ export default function AFullMangement1() {
         onMouseEnter={() => handleActiveHover(3)}
         onMouseLeave={deActiveHover}
       >
-        <p>Customer Service</p>
+        <p>Customer Service and Support</p>
         <div
           className={
             activeHover === 3 ? "hover-main-card active" : "hover-main-card"
           }
         >
-          <p className="hover-main-card-Title">Customer Service</p>
+          <p className="hover-main-card-Title">Customer Service and Support</p>
           <p className="hover-main-card-para">
             <ul>
-              <li>Resolve inquiries</li>
-              <li>Manage returns</li>
-              <li>Monitor feedback</li>
+              <li>Customer Support    </li>
+              <li>Feedback Analysis</li>
+              <li>Customer Relationship Management</li>
             </ul>
           </p>
         </div>
@@ -129,18 +129,18 @@ export default function AFullMangement1() {
         onMouseEnter={() => handleActiveHover(4)}
         onMouseLeave={deActiveHover}
       >
-        <p>Compliance and Regulations</p>
+        <p>Analytics and Reporting</p>
         <div
           className={
             activeHover === 4 ? "hover-main-card active" : "hover-main-card"
           }
         >
-          <p className="hover-main-card-Title">Compliance and Regulations</p>
+          <p className="hover-main-card-Title">Analytics and Reporting</p>
           <p className="hover-main-card-para">
             <ul>
-              <li>Ensure compliance</li>
-              <li>Manage listings</li>
-              <li>Stay updated</li>
+              <li>   Performance Tracking    </li>
+              <li>Data Analysis</li>
+              <li>Reporting</li>
             </ul>
           </p>
         </div>
@@ -151,18 +151,18 @@ export default function AFullMangement1() {
         onMouseLeave={deActiveHover}
         onMouseEnter={() => handleActiveHover(5)}
       >
-        <p>Analytics and Reporting</p>
+        <p>Compliance and Regulatory Adherence</p>
         <div
           className={
             activeHover === 5 ? "hover-main-card active" : "hover-main-card"
           }
         >
-          <p className="hover-main-card-Title">Analytics and Reporting</p>
+          <p className="hover-main-card-Title">Compliance and Regulatory Adherence</p>
           <p className="hover-main-card-para">
             <ul>
-              <li>Sales insights</li>
-              <li>Competitive analysis</li>
-              <li>Growth recommendations</li>
+              <li> Amazon Policies  </li>
+              <li>Regulatory Compliance</li>
+              <li>Risk Managemen</li>
             </ul>
           </p>
         </div>
@@ -173,18 +173,18 @@ export default function AFullMangement1() {
         onMouseLeave={deActiveHover}
         onMouseEnter={() => handleActiveHover(6)}
       >
-        <p>Premium Branding</p>
+        <p>Optimization and Growth</p>
         <div
           className={
             activeHover === 6 ? "hover-main-card active" : "hover-main-card"
           }
         >
-          <p className="hover-main-card-Title">Premium Branding</p>
+          <p className="hover-main-card-Title">Optimization and Growth</p>
           <p className="hover-main-card-para">
             <ul>
-              <li>Selective Distribution Management</li>
-              <li>Exclusive Partnership Development</li>
-              <li>Brand Protection and Market Segmentation</li>
+              <li>Continuous Improvement</li>
+              <li>Growth Planning</li>
+              <li>Scaling Support</li>
             </ul>
           </p>
         </div>

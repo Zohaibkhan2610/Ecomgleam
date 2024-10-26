@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import House from './../Images/3PL-main video.mp4'
 import WhereHose1 from './WhereHose1'
+import Message from "../Message";
+
 export default function Warehousing() {
   return (
     <>
@@ -26,6 +28,7 @@ export default function Warehousing() {
         </div>
       </div>
       <WhereHose1/>
+      <Message/>
     </>
   )
 }

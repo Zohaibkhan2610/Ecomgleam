@@ -178,7 +178,23 @@
   justify-content: center;
   text-align: center;
 }
-
+.message{
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.message > h1{
+  font-weight: 600;
+}
+.message > p{
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  width: 27rem;
+  text-align: center;
+}
 @media screen and (max-width: 768px) {
   .mangement {
     flex-direction: column;
@@ -233,5 +249,14 @@
   margin-left: 2.5rem;
   width:2.5rem;
   height: 2.5rem;
+}
+.message{
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.message > h1{
+  width: 25rem;
+  text-align: center;
 }
 }

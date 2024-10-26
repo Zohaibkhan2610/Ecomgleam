@@ -2,6 +2,7 @@ import React from 'react'
 import Wholesale1 from './../Images/wholesale1.png'
 import { Link } from 'react-router-dom'
 import AmazonWholeSale1 from './AmazonWholeSale1'
+import Message from '../Message'
 
 export default function AmazonWholesale() {
   return (
@@ -27,6 +28,7 @@ export default function AmazonWholesale() {
         </div>
       </div>
      <AmazonWholeSale1/>
+     <Message/>
     </>
   )
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Arbitrage1 from './../Images/Arbitrage1.png'
 import ArbitMangement1 from './ArbitMangement1'
+import Message from '../Message'
 export default function ArbitrageAndManagenebt() {
   return (
     <>
@@ -26,6 +27,7 @@ export default function ArbitrageAndManagenebt() {
         </div>
       </div>
       <ArbitMangement1/>
+      <Message/>
     </>
   )
 }
