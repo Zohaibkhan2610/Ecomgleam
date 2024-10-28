@@ -7,7 +7,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faContactBook, faEnvelope, faHome, faInfo, faSearch, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { faBlogger, faServicestack } from "@fortawesome/free-brands-svg-icons";
 
+
 export default function Navbar() {
+
   let [menuIcon, setmenuIcon] = useState(true);
   let closeMenu = () => setmenuIcon(!menuIcon);
   
@@ -16,9 +18,11 @@ export default function Navbar() {
     setActiveButton(index);
   };
 
+  
 
   return (
     <>
+
       <header>
         <div className="logo">
           <img src={logo} alt="Logo" onClick={() => handleClick(0)} to='/'/>
@@ -29,7 +33,7 @@ export default function Navbar() {
 
           <Link className={activeButton === 1 ? "page-links active" : "page-links"} onClick={() => handleClick(1)} to='/About'>About Us</Link>
           <Link className={activeButton === 2 ? "page-links active" : "page-links"} onClick={() => handleClick(2)} to='/Contact'>Contact Us</Link>
-          <Link className={activeButton === 3 ? "page-links active" : "page-links"} onClick={() => handleClick(3)} to='/#ServicesSection'>Services</Link>
+          <Link className={activeButton === 3 ? "page-links active" : "page-links"} to='/'>Services</Link>
           <Link className={activeButton === 4 ? "page-links active" : "page-links"} onClick={() => handleClick(4)} to=''>Blogs</Link>
           <Link className={activeButton === 5 ? "page-links active" : "page-links"} onClick={() => handleClick(5)} to='/'>Case Studies</Link>
           </div>

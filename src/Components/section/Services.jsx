@@ -9,6 +9,7 @@ import AOS from "aos";
 
 import ServiceVideo from "./../Images/Services video.mp4";
 import { useEffect } from "react";
+import { useRef } from "react";
 export default function Services() {
 useEffect(() => {
     AOS.init({

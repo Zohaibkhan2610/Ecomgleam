@@ -16,6 +16,7 @@ import phone from "./../Images/Phone-call.svg";
 import email from "./../Images/mail.svg";
 
 export default function Footer() {
+  
   return (
     <>
       <div className="footer-section">

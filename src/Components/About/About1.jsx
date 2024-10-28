@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function About() {
   return (
     <>
-    <div className="main-area">
+    <div className="main-area" id='AboutAll'>
     <div className="container flex">
       <div className="area-text">
         <h1 className='area-text-head'>WE ARE <span>Ecom Gleam</span></h1>

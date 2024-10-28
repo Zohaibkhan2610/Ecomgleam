@@ -47,13 +47,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 300px;
-    height: 348px;
     margin-top: 20px;
     margin-bottom: 20px;
     border: solid;
     border-color: transparent;
     border-radius: 26px;
+    width: 300px;
+    height: 348px;
     
 }
 .card-content{
@@ -90,7 +90,6 @@
 
 }
 video{
-    /* background: url(./../../Images/Services\ video.mp4); */
     object-fit: cover;
     max-width: 1340px;
     margin-bottom: -120px;
