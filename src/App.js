@@ -16,6 +16,7 @@ import AmazonMangment from './Components/Our Services/Amazon Full Mangment/Amazo
 import ArbitrageAndManagenebt from './Components/Our Services/Arbitrage And Management/Arbitrage and Managenebt';
 import Contact from './Components/Contact us/Contact';
 import ScrollToTop from './ScrollToTop';
+import ScrollToAnchor from './ScrolltoDiv';
 function App() {
   useEffect(() => {
     AOS.init({
@@ -25,6 +26,7 @@ function App() {
   return (
     <>
       <Router>
+      <ScrollToAnchor/>
       <ScrollToTop/>
       <Navbar/>
       <Routes>

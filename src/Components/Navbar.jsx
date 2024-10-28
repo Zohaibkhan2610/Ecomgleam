@@ -33,7 +33,7 @@ export default function Navbar() {
 
           <Link className={activeButton === 1 ? "page-links active" : "page-links"} onClick={() => handleClick(1)} to='/About'>About Us</Link>
           <Link className={activeButton === 2 ? "page-links active" : "page-links"} onClick={() => handleClick(2)} to='/Contact'>Contact Us</Link>
-          <Link className={activeButton === 3 ? "page-links active" : "page-links"} to='/'>Services</Link>
+          <Link className={activeButton === 3 ? "page-links active" : "page-links"} to='/#ServicesSection'>Services</Link>
           <Link className={activeButton === 4 ? "page-links active" : "page-links"} onClick={() => handleClick(4)} to=''>Blogs</Link>
           <Link className={activeButton === 5 ? "page-links active" : "page-links"} onClick={() => handleClick(5)} to='/'>Case Studies</Link>
           </div>
