@@ -62,7 +62,7 @@ export default function Navbar() {
           <div onClick={closeMenu}>
           <Link 
           className={activeButton === 3 ? "page-linker active" : "page-linker"} onClick={() => handleClick(3)} 
-          to='/'>
+          to='/#ServicesSection'>
           <FontAwesomeIcon icon={faServicestack}/>
           Services
           </Link>
