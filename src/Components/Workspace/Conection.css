@@ -37,14 +37,11 @@
   gap: 5.4%;
   animation: Partners-animation 10s 1ms infinite ease backwards;
 }
-.Partners-logo1 {
+.Partners-logo1,.Partners-logo2 {
   display: flex;
   width: 100%;
 }
-.Partners-logo2 {
-  display: flex;
-  width: 40%;
-}
+
 .Partners-logo1 > div {
   width: 177px;
   display: flex;
