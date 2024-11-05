@@ -6,7 +6,7 @@ import Connection from './Workspace/Connection.jsx'
 export default function Home() {
   return (
     <>
-      <div className='Home'>
+      <div className='Home' style={{overflow:'hidden'}}>
       <Hero/>
       <Services/>
       <Work/>

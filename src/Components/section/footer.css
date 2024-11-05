@@ -88,3 +88,10 @@
         font-size: 13px;
     }
 }
+@media screen and (max-width:425px) {
+  .footer{
+    margin-right: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

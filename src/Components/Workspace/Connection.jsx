@@ -35,7 +35,7 @@ export default function Connection() {
           </div>
           </div>
           <div className="flex">
-          <div className="Partners-logo1">
+          <div className="Partners-logo1 Partners-logo2">
             <div><img src={Partner1} alt="" /></div>
             <div><img src={Partner2} alt="" /></div>
             <div><img src={Partner3} alt="" /></div>

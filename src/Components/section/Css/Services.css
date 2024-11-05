@@ -5,6 +5,7 @@
 .server{
     height: 200vh;
     position: relative;
+    margin-bottom: 1rem;
 }
 .Services{
     display: flex;
@@ -99,13 +100,13 @@ video{
     display: flex;
     justify-content: center;
     gap: 4rem;
-    max-width: 100%;
-    /* border: 2px solid; */
+    width: 100%;
     background-color: rgb(243, 244, 246);
     border-radius: 30px;
     padding: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
+    align-items: center;
 }
 .review-img{
     width: 50%;
@@ -132,6 +133,7 @@ video{
 /* .animated{
     transform: translateY(0%);
 } */
+
 
 @media screen and (max-width:768px) {
     .server{
@@ -171,5 +173,22 @@ video{
     .review-text p{
         font-size: 25px;
         width: 250px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .review{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        padding: .5rem;
+    }
+    .review-img{
+        width: 100%;
+    }
+    .review-img > img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
     }
 }

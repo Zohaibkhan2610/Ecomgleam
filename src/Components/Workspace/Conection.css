@@ -35,7 +35,6 @@
   justify-content: space-between;
   align-items: center;
   gap: 5.4%;
-  transform: translateX(43%);
   animation: Partners-animation 10s 1ms infinite ease backwards;
 }
 .Partners-logo1 {
@@ -162,5 +161,27 @@
     animation-timing-function: linear;
 
     }
+  }
+}
+
+@media screen and (max-width: 425px){
+  .Partners-logo{
+    transform: translateX(24%);
+  animation: none;
+    
+  }
+  .Partners-logo2{
+    display: none;
+  }
+  .Partners-logo1 > div {
+    width: 2.5rem;
+    margin-left: 0.6rem;
+  }
+  .client{
+    width: 100%;
+  }
+  .client > h1{
+    width: 100%;
+    font-size: 1.5rem;
   }
 }

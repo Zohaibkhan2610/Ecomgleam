@@ -126,7 +126,6 @@
 .About4-text-para{
   text-align: start;
   font-size: 17px;
-  max-width: 550px;
   width: 620px;
   font-weight: 500;
 }
@@ -244,6 +243,9 @@
   display: none !important;
 }
 @media screen and (max-width: 768px) {
+  .about-same{
+    display: none;
+  }
   .none{
     display: inline-flex !important;
   }
@@ -347,5 +349,55 @@
     animation-timing-function: linear;
   
     }
+  }
+}
+
+@media screen and (max-width: 425px){
+  .card-3{
+    width: 99%;
+    height: fit-content;
+  }
+  .Card-Area{
+    width: 100%;
+  }
+  .About4-text{
+    width: 100%;
+  }
+  .About4-text-head{
+    width: 100%;
+    text-align: left;
+    font-size: 1rem;
+  }
+  .About4-text-para{
+    width: 84%;
+    font-size: .9rem;
+  }
+  .About4-img{
+    width: 100%;
+  }.card5{
+    width: 100%;
+  }
+  .card5-text{
+    width: 100%;
+  }
+  .card5-text-head{
+    font-size: 1.2rem;
+  }
+  .card5-text-para{
+    font-size: 0.9rem;
+  }
+  .text-section-head1{
+    width: 100%;
+    font-size: 1.2rem;
+  }
+  
+  .About6-para{
+    font-size: 0.9rem;
+  }
+  .About6-head{
+    font-size: 1.2rem;
+  }
+  .btn3{
+    font-size: 0.6rem;
   }
 }

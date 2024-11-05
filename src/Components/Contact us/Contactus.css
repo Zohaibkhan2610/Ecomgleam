@@ -1,4 +1,5 @@
 .contact {
+  overflow: hidden;
   display: inline-flex;
   padding-inline-start: 5rem;
   align-items: center;
@@ -65,17 +66,42 @@
     margin-left: 30%;
 }
 @media screen and (max-width:768px) {
+  .contact{
+    width: 100%;
+    padding-inline-start: 0rem;
+  }
+  .contact-form{
+    width: 100%;
+  padding: .4rem;
+}
   .contact {
     flex-direction: column;
     width: 100%;
   }
   .map-img{
-    height: 40vh;
+    width: 96%;
+    height: 96%;
   }
   .contact-form{
+    width: 100%;
     align-items: center;
   }
   .contact-form >h1{
     text-align: center;
+  }
+}
+@media screen and (max-width:425px){
+  .contact-form >h1{
+    font-size: 1.2rem;
+  }
+  .contact-form > form > label,.contact-form > form > input{
+    font-size: .9rem;
+  }
+  #Submit{
+    width: fit-content;
+    font-size: .9rem;
+  }
+  .contact-form >h1 , form > h2{
+    font-size: 1.2rem;
   }
 }

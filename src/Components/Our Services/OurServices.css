@@ -84,7 +84,7 @@
 .head-card,
 .hover-card {
   height: 280px;
-  width: 290px;
+  width: 20%;
   padding: 16px;
   display: inline-flex;
   align-items: center;
@@ -194,6 +194,23 @@
   line-height: 1.5rem;
   width: 27rem;
   text-align: center;
+}
+@media screen and (max-width: 1024px){
+  .wherehouse{
+    flex-wrap: wrap;
+    padding: 0 1rem;
+  }
+  .head-card{
+    width: 40%;
+  }
+  .hover-card{
+    width: 40%;
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
 }
 @media screen and (max-width: 768px) {
   .mangement {

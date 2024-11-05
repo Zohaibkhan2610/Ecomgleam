@@ -65,6 +65,33 @@
     text-decoration: none;
 }
 
+@media screen and (max-width:1024px) {
+    .server{
+        height: fit-content;
+    }
+    .Services{
+        height: fit-content;
+        
+    }
+    .area-text{
+        height: 70%;
+        width: 96%;
+    }
+    .Ser-headline{
+        width: 100%;
+    }
+.servflex{
+        flex-direction: column !important;
+        height: fit-content;
+        margin-bottom: 0.2rem;
+    }
+    .serv-video{
+        width: 100%;
+        margin-bottom: 0.1rem;
+    }
+  
+}
+
 @media screen and (max-width:768px) {
     .main-area{
         height: fit-content;
@@ -91,4 +118,5 @@
         justify-content: center;
         width: 100%;
     }
+    
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import './../About/About.css'
 export default function Message() {
   return (
     <>

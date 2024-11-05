@@ -41,10 +41,10 @@ export default function About5() {
       <div className="About flex">
         <h1 className="text-section-head1">Client Testimonials</h1>
         <div className="card5 flex">
-        <div className="About5-img">
+        <div className="About5-img about-same">
           <img src={About6S1} alt="" />
         </div>
-        <div className="About5-img">
+        <div className="About5-img about-same">
           <img src={About6S1} alt="" />
         </div>
         <div className="About5-img">

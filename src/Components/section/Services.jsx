@@ -22,11 +22,11 @@ useEffect(() => {
     <>
       <div className="server" id="ServicesSection">
       <div className="Services">
-        <h1>
+        <h1 className="Ser-headline">
           <span>Ecommerce Management</span>
           <span>Services</span>
         </h1>
-        <div className="main flex">
+        <div className="main flex servflex">
           <div className="service">
             <div data-aos='fade-up' className="card aos-init aos-animate">
               <img src={Service1} alt="Service" />
@@ -63,7 +63,7 @@ useEffect(() => {
             </div>
           </div>
         </div>
-        <video src={ServiceVideo} autoPlay muted loop/>
+        <video className="serv-video" src={ServiceVideo} autoPlay muted loop/>
       </div>
       </div>
       <div className="container">
