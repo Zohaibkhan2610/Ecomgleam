@@ -224,3 +224,43 @@ background-color: rgb(0, 167, 151);
 
 
 }
+@media screen and (max-width:425px) {
+  .work-card{
+    width: 100%;
+  }
+  .work-card-text{
+    width: 100%;
+  }
+  .work-card-text > .p1{
+    font-size: 1.2rem;
+  }
+  .work-card-text > .p2{
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .work-card-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .flex{
+    width: 100%;
+  }
+  .booking-main {
+    gap: 1.5rem;
+    padding-bottom: 5rem;
+    width: 100%;
+  }
+  .booking-main > p{
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  .booking-main > img {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 0rem;
+  }
+  .head-text{
+    font-size: 1.5rem;
+  }
+}

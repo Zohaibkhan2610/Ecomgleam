@@ -10,6 +10,7 @@ header{
   position: relative;
   top: 0;
   left: 0;
+  padding-inline-start: 5rem;
   align-items: center;
   gap: 2rem;
 }
@@ -18,12 +19,14 @@ header{
 }
 .logo{
   cursor: pointer;
-  width: 360px;
+  width: 15%;
   margin-left: 10px;
   display: flex;
   justify-content: flex-end;
 }
 .navbar{
+  display: inline-flex !important;
+  justify-content: center;
   width: 80%;
   height: 100%;
   background-color: rgb(0, 167, 151);
@@ -54,6 +57,7 @@ header{
   justify-content: center;
   align-items: center;
   margin-top: 30px;
+  padding-right: 14px;
   width: 300px;
   gap: 12px;
 }
@@ -66,9 +70,33 @@ header{
 .icon{
   display: none;
 }
+@media screen and (max-width:1024px) {
+  .header{
+    gap: 1rem;
+  }
+  .logo{
+    margin-left: 1.5rem;
+  }
+  .nav{
+    width: 66%;
+  }
+  .p-btn{
+    width: 25%;
+  }
+  .page-links{
+    margin-left: 0.1rem;
+    margin-right: 0.375rem;
+  }
+  .p-btn > p{
+    font-size: 0.825rem;
+  }
+}
+
+
 @media screen and (max-width:768px) {
   header{
     height: 12vh;
+    padding-inline-start: 1rem;
   }
   .icon{
     display: flex;
@@ -98,12 +126,12 @@ header{
     display: flex;
     flex-direction: column;
     position: absolute;
-    left: -720px;
+    left: -100%;
     top: 0;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.76);
     gap: 1rem;
-    transition: 1s;
+    transition: 0.5s;
   }
 .mini-menu.active{
   left: 0;
@@ -152,5 +180,13 @@ header{
   .page-linker.active{
     border-radius: 4px;
     background-color: #ffffff27;
+  }
+}
+@media screen and (max-width:425px) {
+  .header{
+    padding-inline-start: 0rem;
+  }
+  .logo{
+    padding-left: .1rem;
   }
 }
